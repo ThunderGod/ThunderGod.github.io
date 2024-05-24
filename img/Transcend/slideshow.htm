@@ -1,0 +1,31 @@
+<HEAD>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="fadeslideshow.js"></script>
+<script type="text/javascript">
+var mygallery = new fadeSlideShow
+({
+	wrapperid: "fadeshow1",
+	dimensions: [450, 600],
+	imagearray: 
+	[
+		["IMG_11.jpg", "", "", ""],
+		["IMG_12.jpg", "", "", ""],
+		["IMG_13.jpg", "", "", ""],
+		["IMG_14.jpg", "", "", ""],
+		["IMG_15.jpg", "", "", ""],
+		["IMG_16.jpg", "", "", ""],
+		["IMG_17.jpg", "", "", ""],
+		["IMG_18.jpg", "", "", ""],
+		["IMG_19.jpg", "", "", ""],
+	],
+	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
+	persist: false,
+	fadeduration: 500,
+	descreveal: "ondemand",
+	togglerid: ""
+})
+</script>
+</HEAD>
+<BODY>
+<div id="fadeshow1"></div>
+</BODY>
